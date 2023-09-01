@@ -92,6 +92,8 @@ a:active {
   margin-right: 5px;
 }
 
+
+
 /* Modal */
 .modal-container {
   background: rgba(0, 0, 0, 0.6);
@@ -151,9 +153,44 @@ h3 {
   background: whitesmoke;
 }
 
+
+
 /* Form */
 .form-group {
-  
+  height: 55px;
+}
+
+.form-input {
+  width: 97%;
+  padding: 5px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  display: block;
+  outline: none;
+}
+
+.form-label {
+  color: var(--primary-color);
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  color: whitesmoke;
+  background: var(--primary-color);
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: var(--border-radius);
+  margin-top: 10px;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:focus {
+  outline: none;
 }
 
 

@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <!-- Open Modal -->
     <h1 id="show-modal">Add Bookmark</h1>
+
     <!-- Bookmarks -->
     <div class="container" id="bookmarks-container">
         <div class="item">
@@ -35,8 +38,9 @@
             </div>
         </div>
     </div>
+
     <!-- Modal -->
-    <div class="modal-container show-modal" id="modal">
+    <div class="modal-container" id="modal">
         <div class="modal">
             <i class="fas fa-times close-icon" id="close-modal"></i>
             <div class="modal-header">
@@ -44,18 +48,20 @@
             </div>
             <div class="modal-content">
                 <form id="bookmark-form">
+
                     <!-- Website Name -->
                     <div class="form-group">
                         <!-- input id has to match the for of the label -->
                         <label for="website-name" class="form-label">Website Name</label>
                         <input type="text" class="form-input" id="website-name">
                     </div>
+
                     <!-- Website URL -->
                     <div class="form-group">
                         <label for="website-url" class="form-label">Website URL</label>
                         <input type="text" class="form-input" id="website-url">
                     </div>
-                    <button type = "submit">Save</button>
+                    <button type="submit">Save</button>
                 </form>
             </div>
         </div>
